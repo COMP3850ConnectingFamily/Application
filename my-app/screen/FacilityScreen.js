@@ -38,9 +38,9 @@ const FacilityScreen = () => {
             </Box>
             <TouchableOpacity
                 style={styles.button}
-                onPress={() => console.log("hello")}
+                onPress={() => console.log("Hello")}
             >
-                <Text style={styles.buttonText}>Login</Text>
+                <Text style={styles.buttonText}>Next</Text>
             </TouchableOpacity>
         </Center>
     );
@@ -49,8 +49,8 @@ const FacilityScreen = () => {
 const styles = StyleSheet.create({
     button: {
         marginTop: 20,
-        height: 50,
-        width: 300,
+        height: 40,
+        width: 100,
         justifyContent: "center",
         alignItems: "center",
         backgroundColor: colorScheme.primary,
@@ -62,6 +62,7 @@ const styles = StyleSheet.create({
         shadowOpacity: 0.34,
         shadowRadius: 6.27,
         elevation: 10,
+        borderRadius: 3,
     },
 
     buttonText: {
