@@ -13,7 +13,7 @@ export default function App() {
         <NativeBaseProvider>
             <NavigationContainer>
                 <Stack.Navigator
-                    initialRouteName="FacilityScreen"
+                    initialRouteName="PhoneNumber"
                     screenOptions={{ headerShown: false }}
                 >
                     <Stack.Screen name="PhoneNumber" component={PhoneNumber} />

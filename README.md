@@ -23,6 +23,16 @@
 
 -   Follow the [instructions](https://docs.expo.dev/get-started/installation/) to install `expo CLI` (a command line tool to run the application developing environment)
 
+-   Create a Twillo account (pay attention to Account SID, Auth Token and set up a **notify service** to use for authentication by following `Setting up Twillo account` section of [this link](https://medium.com/codex/phone-number-verification-with-react-native-and-twilio-afb09e5486aa))
+
+    -   Create `.env` file inside `COMP3850Server` folder
+
+```
+ACCOUNT_SID = your account SID
+AUTH_TOKEN = your Auth Token
+SERVICE_ID = your SID
+```
+
 ### Install the package for the application
 
 ```
